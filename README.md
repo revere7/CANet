@@ -1,2 +1,1 @@
-## CANet
-## 《软件学报》投稿版本代码
+python3 train.py
