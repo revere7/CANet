@@ -102,7 +102,7 @@ class HPF_gabor(nn.Module):
     def __init__(self):
         super(HPF_gabor, self).__init__()
 
-        filt_list = build_filters2_gabor()
+        filt_list = build_filters_gabor()
 
         hpf_weight = nn.Parameter(torch.Tensor(filt_list).view(32, 1, 5, 5), requires_grad=False)
 
